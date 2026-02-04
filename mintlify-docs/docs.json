@@ -1,0 +1,150 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Partner Strategy",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Partner Strategy",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "partner-strategy/overview/executive-summary",
+              "partner-strategy/overview/executive-summary-v2"
+            ]
+          },
+          {
+            "group": "Deal Structures",
+            "pages": [
+              "partner-strategy/deal-structures/beach-house-calculator",
+              "partner-strategy/deal-structures/beach-house-structure-v1",
+              "partner-strategy/deal-structures/beach-house-structure-v2",
+              "partner-strategy/deal-structures/beach-house-negotiation",
+              "partner-strategy/deal-structures/5-percent-path",
+              "partner-strategy/deal-structures/5-percent-earnout"
+            ]
+          },
+          {
+            "group": "Partner Evaluations",
+            "pages": [
+              "partner-strategy/evaluations/beach-house-summary",
+              "partner-strategy/evaluations/beach-house-pictures",
+              "partner-strategy/evaluations/donovan-chan",
+              "partner-strategy/evaluations/jocelyn-little"
+            ]
+          },
+          {
+            "group": "Frameworks & Guides",
+            "pages": [
+              "partner-strategy/frameworks/cap-table-strategy",
+              "partner-strategy/frameworks/leverage-model",
+              "partner-strategy/frameworks/evaluation-framework",
+              "partner-strategy/frameworks/pipeline-template"
+            ]
+          },
+          {
+            "group": "Tools & Resources",
+            "pages": [
+              "partner-strategy/tools/partner-evaluator",
+              "partner-strategy/tools/milestone-templates",
+              "partner-strategy/tools/scoring-guide"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Mintlify Guides",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
+            "group": "Writing content",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "AI tools",
+            "pages": [
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/being-human-studio",
+          "icon": "github"
+        },
+        {
+          "anchor": "Partner Strategy Repo",
+          "href": "https://github.com/being-human-studio/partner-strategy",
+          "icon": "code"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Contact",
+        "href": "mailto:contact@beinghuman.studio"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "GitHub",
+      "href": "https://github.com/being-human-studio/partner-strategy"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/being-human-studio",
+      "linkedin": "https://linkedin.com/company/being-human-studio"
+    }
+  }
+}
